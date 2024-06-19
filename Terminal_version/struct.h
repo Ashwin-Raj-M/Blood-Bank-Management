@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <time.h>
+struct doner
+{
+    char userID[100];
+    char password1[11];
+    char password[11];
+    char bloodGroup[4];
+    char name[100];
+    int age;
+    char sex[7];
+    char phNo[11];
+    char door[20];
+    char street[50];
+    char area[50];
+    char district[50];
+    char pin[7];
+    int lastDonation;
+} det;
